@@ -1,0 +1,35 @@
+:root {
+
+  --default-color: #e7e7e7 /*cor texto */
+  --background-color: #444; /*bg color */
+  --heading-color: #1c1a1a;
+  --accent-color: ;
+  --surface-color: ;
+  --constrast-color: ;
+
+
+}
+
+
+
+
+
+body {
+    background-color: var(--background-color)
+    color:var(--default-color)
+
+}
+
+a{
+
+   color: var(--accent-color);
+   text-decoration:none;
+   transition: 0.3s;
+
+}
+
+a:hover {
+
+   color:color-mix(in srgb, var(--accent-color), transparent 25%);
+
+}
